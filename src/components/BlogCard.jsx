@@ -1,8 +1,8 @@
-import React from 'react';
+import React from 'react'
 
 export default function BlogCard() {
   return (
-    <div className="col-md-2 col-lg-3 col-12">
+    <div className="col-md-2 col-lg-3 col-12 mb-4">
       <div className="card border-0 shadow-lg">
           <img src="https://placehold.co/600x400" alt="Placeholder Image" className='card-img-top' />
           <div className="card-body">
@@ -18,6 +18,6 @@ export default function BlogCard() {
             </div>
           </div>
         </div>
-      </div>
+    </div>
   )
 }
