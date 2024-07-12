@@ -4,6 +4,8 @@ import BlogCard from './components/BlogCard';
 import { Route, Routes } from 'react-router-dom';
 import Blogs from './components/Blogs';
 import CreateBlog from './components/CreateBlog';
+import { ToastContainer } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 // import Contact from './components/Contact';
 
 
@@ -19,6 +21,7 @@ function App() {
         {/* <Route path="/contact" element={<Contact/>} /> */}
         <Route path="/create" element={<CreateBlog/>} />
       </Routes>
+      <ToastContainer />
     </>
   )
 }
